@@ -1,0 +1,19 @@
+.saved-palettes {
+  padding: 20px;
+}
+
+.saved-palettes .palette {
+  display: flex;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.saved-palettes .color-block {
+  flex: 1;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}

@@ -1,0 +1,43 @@
+.palette {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.color-block {
+  flex: 1;
+  height: 150px;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 10px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.color-block:hover {
+  transform: scale(1.05);
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 16px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #555;
+}
